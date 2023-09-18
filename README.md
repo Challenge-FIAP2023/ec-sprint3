@@ -66,15 +66,15 @@ A arquitetura proposta para a solução IoT da Lixeira Inteligente envolve três
 2. Utilize uma API para consultar os dados do back-end.
 3. Implemente recursos gráficos para representar visualmente os dados da lixeira.
 
-##Integração com Aplicativo e Site
+## Integração com Aplicativo e Site
 
-###Aplicativo Móvel
+### Aplicativo Móvel
  1. O aplicativo móvel permite aos usuários monitorar o status da lixeira em tempo real.
  2. Os usuários podem receber notificações quando a lixeira está cheia.
  3. O aplicativo também fornece informações sobre as lixeiras próximas à localização do usuário.
  4. Os dados coletados pelo dispositivo IoT são transmitidos para o aplicativo por meio de uma API.
  5. Os usuários podem configurar suas preferências, como níveis de alerta de enchimento da lixeira.
-###Site
+### Site
  1. O site oferece uma interface web para os usuários acessarem as informações da lixeira.
  2. Os usuários podem visualizar o histórico de uso da lixeira e acompanhar as mudanças ao longo do tempo.
  3. O site utiliza uma API para consultar os dados do back-end e exibi-los aos usuários.
