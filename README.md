@@ -29,7 +29,7 @@ A arquitetura proposta para a solução IoT da Lixeira Inteligente envolve três
 ### Back-end
 
 - Servidor web ou plataforma de nuvem para hospedar o back-end
-- Linguagem de programação para desenvolvimento do back-end (Node.js e Python)
+- Linguagem de programação para desenvolvimento do back-end
 - API para receber os dados enviados pelo dispositivo IoT
 
 ### Front-end
