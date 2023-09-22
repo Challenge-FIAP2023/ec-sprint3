@@ -42,16 +42,25 @@ void loop() {
   // Código JSON começa aqui
   StaticJsonDocument<100> json; // Tamanho do buffer para o JSON
 
-  if (dist < 400) {
+  if (dist <= 200) {
+    dist /= 10;
     json["distance"] = dist;
     servo.attach(servoPin);
     delay(1);
     servo.write(0);  
-    delay(3000);       
+    delay(1000);       
     servo.write(150);    
     delay(1000);
     servo.detach();
-  }
+    } else {
+    dist /= 10;
+    json["distance"] = dist;
+    servo.attach(servoPin);
+    delay(1);
+    servo.write(0);  
+    delay(1000);       
+    servo.detach();
+   }
 
   String jsonString;
   serializeJson(json, jsonString);
